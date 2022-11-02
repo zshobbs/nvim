@@ -108,6 +108,7 @@ cmp.setup({
 		end,
 	},
 	sources = {
+        { name = "copilot"},
 		{ name = "buffer" },
 		{ name = "path" },
 		{ name = "nvim_lsp" },
