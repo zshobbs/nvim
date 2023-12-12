@@ -95,6 +95,7 @@ return packer.startup(function(use)
   -- use {"github/copilot.vim"}
   use {
     "zbirenbaum/copilot.lua",
+    commit = "137df557486f91627b8e4708a47088f36950f12c",
     event = "VimEnter",
     config = function()
       vim.defer_fn(function()
@@ -104,6 +105,7 @@ return packer.startup(function(use)
   }
   use {
     "zbirenbaum/copilot-cmp",
+    commit = "b732a58ac8b7287b981cd9f0d9c0f61e5e9d5760",
     after = { "copilot.lua" },
     config = function ()
       require("copilot_cmp").setup()
